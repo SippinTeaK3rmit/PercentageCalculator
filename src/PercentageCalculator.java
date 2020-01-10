@@ -6,9 +6,9 @@ public class PercentageCalculator {
         int number;
         number = input.nextInt();
         System.out.println("Enter the percentage");
-        float percentage;
+        double percentage;
         percentage = input.nextInt();
-        float answer;
+        double answer;
         answer = (percentage * number);
         System.out.println(answer/100);
 
